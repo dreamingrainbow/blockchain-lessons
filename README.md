@@ -1,6 +1,10 @@
 # blockchain-lessons
 Building a blockchain, one step at a time.
 
+Chat with us on Discord, in our BlockChange Discussion group.
+ 
+ https://discord.gg/vFeZuYj
+
 ## One might ask why should we build our own step by step. 
 
 I can say that learning the process sometime can help better what exists.
