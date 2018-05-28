@@ -19,7 +19,11 @@ We also need to store these transaction in a block, once they have been confirme
 
 Lets start with the transacitons.
 
+
+## The Transactions
+
 We know we need an amount, we should include who its going to, and who we are. We will need to add confirmations, and we need to independantly verify it.
+
 ```JavaScript
 {
     amount,
@@ -45,9 +49,8 @@ We almost have all the data we need, lastly we add our security measures.
 
 ```
 
-As you can see we add a couple items to the transaction. A previousHash, and a signature.
-These are part of our security and Ill explain how later. The last part of our transaction would be 
-the final hash of the transaction.
+As you can see we add a signature.
+This is part of our security and Ill explain how later. 
 
 ```JavaScript
 {
@@ -63,6 +66,7 @@ the final hash of the transaction.
 
 Now, we have our transactions layed out, lets figure out our blocks.
 
+## The Block
 ```JavaScript
 {
     block_no,
